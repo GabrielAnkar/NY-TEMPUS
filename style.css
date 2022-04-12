@@ -1,0 +1,109 @@
+html {
+  height: 100vh;
+}
+
+body {
+  background: rgb(0, 0, 0);
+  height: 500vh;
+}
+
+canvas {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  max-height: 100vh;
+  max-width: 100vw;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  text-align: center;
+  top: 6vh;
+  color: white; 
+  font-family: COPRGTB;
+  font-size: 5vh;
+  
+}
+
+
+#h3V {
+  color:white;
+  font-family: COPRGTB;
+  margin-left: 10%;
+  padding-top:10%
+}
+
+
+.textV {
+  margin-left: 10%
+}
+
+.TexterV{
+  width: 15vw;
+}
+
+.TexterH{
+  float:right;
+  width: 15vw;
+  margin-right: 2%;
+}
+
+#h3H {
+  color:white;
+  font-family: COPRGTB;
+float:right;
+margin-right: 33%;
+margin-top: 10%;
+}
+
+
+.webring {
+  background-color: black;
+  position: fixed;
+  z-index: 1000000;
+  bottom: 0;
+  font-family: "COPRGTL";
+  width: 100vw;
+  color: white;
+  letter-spacing: 0.1vw;
+  word-spacing: 0.3vw;
+  line-height: 3vh;
+  font-size: 2vh;
+  text-align: center;
+}
+
+.webring a {
+  color: white;
+  font-family: "COPRGTL";
+  border-bottom: 0;
+  line-height: 1vh;
+  text-align: center;
+  font-size: 2vh;
+}
+
+.webringarrow a {
+  color: white;
+  font-family: "COPRGTL";
+  border-bottom: 0;
+  font-size: 2vh;
+  text-align: center;
+  text-decoration: none;
+}
+
+.webringarrow, .webringinfo {
+  padding: 1.5vw;
+}
+
+
+
+@font-face {
+  font-family: COPRGTB;
+  src: url(SRC/Fonts/COPRGTB.TTF);
+}
+
+@font-face {
+  font-family: COPRGTL;
+  src: url(SRC/Fonts/COPRGTL.TTF);
+}
